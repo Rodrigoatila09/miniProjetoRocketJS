@@ -1,0 +1,116 @@
+body {
+  height: 100%;
+  min-width: 100vw;
+  margin: 0;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainCard {
+  height: 520px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: space-between; 
+  align-items: center;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 20px; 
+}
+
+#firstPart {
+  height: 320px;
+}
+
+#cardTitle {
+  background-color: #FDEB82;
+  height: 60px;
+  margin-left: 28px ;
+  margin-right: 28px;
+  display: flex;
+  justify-content: center;
+  border-radius: 7px;
+}
+#cardTitle h1{
+  font-family:"Comfortaa", serif;
+}
+
+#lembreiFunctions{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 85px;
+}
+#lembreiFunctions h1{
+  color: #FFA500;
+  font-size:xx-large;
+  font-family: "Comfortaa", serif;
+  
+}
+
+#uniqueFunctions{
+  min-width:270px;
+display: flex;
+align-items: center;
+flex-direction: row;
+gap: 60px;
+}
+
+#userInput{
+  text-align: center;
+  height: 25px;
+  border-radius: 9px;
+  background-color: #FDEB82;
+  border-color: transparent;
+  font-family: "Comfortaa", serif;
+}
+#addItems{
+  height: 28px;
+  width: 27px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  color:white;
+  background-color:green;
+}
+
+#itemsResult{
+height: 150px;
+width: 360px;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: flex-end;
+
+}
+
+
+::-webkit-input-placeholder{
+color: black;
+}
+
+
+.comfortaa-uniquifier {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
