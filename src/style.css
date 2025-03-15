@@ -23,11 +23,11 @@ main {
   display: flex;
   flex-direction: column;
   margin: 0;
-  justify-content: space-between; 
+  justify-content: space-between;
   align-items: center;
   background-color: whitesmoke;
   border-radius: 20px;
-  padding: 20px; 
+  padding: 20px;
 }
 
 #firstPart {
@@ -35,19 +35,19 @@ main {
 }
 
 #cardTitle {
-  background-color: #FDEB82;
+  background-color: #fdeb82;
   height: 60px;
-  margin-left: 28px ;
+  margin-left: 28px;
   margin-right: 28px;
   display: flex;
   justify-content: center;
   border-radius: 7px;
 }
-#cardTitle h1{
-  font-family:"Comfortaa", serif;
+#cardTitle h1 {
+  font-family: "Comfortaa", serif;
 }
 
-#lembreiFunctions{
+#lembreiFunctions {
   height: 100%;
   display: flex;
   justify-content: center;
@@ -55,30 +55,29 @@ main {
   flex-direction: column;
   gap: 85px;
 }
-#lembreiFunctions h1{
-  color: #FFA500;
-  font-size:xx-large;
+#lembreiFunctions h1 {
+  color: #ffa500;
+  font-size: xx-large;
   font-family: "Comfortaa", serif;
-  
 }
 
-#uniqueFunctions{
-  min-width:270px;
-display: flex;
-align-items: center;
-flex-direction: row;
-gap: 60px;
+#uniqueFunctions {
+  min-width: 270px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 60px;
 }
 
-#userInput{
+#userInput {
   text-align: center;
   height: 25px;
   border-radius: 9px;
-  background-color: #FDEB82;
+  background-color: #fdeb82;
   border-color: transparent;
   font-family: "Comfortaa", serif;
 }
-#addItems{
+#addItems {
   height: 28px;
   width: 27px;
   border-radius: 100px;
@@ -86,26 +85,43 @@ gap: 60px;
   justify-content: center;
   align-items: center;
   font-size: x-large;
-  color:white;
-  background-color:green;
+  color: white;
+  background-color: green;
 }
 
-#itemsResult{
-height: 150px;
-width: 360px;
-border-radius: 20px;
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: flex-end;
-
+#itemsResult {
+  height: 150px;
+  width: 360px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#userItems{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#pTag {
+  display: flex;
+  gap: 30px;
+  font-weight: bolder;
+  font-family: "Cofortaa", serif;
 }
 
-
-::-webkit-input-placeholder{
-color: black;
+.fa-trash {
+  color: red;
+}
+.fa-trash:hover {
+  font-size: large;
+  cursor: pointer;
 }
 
+::-webkit-input-placeholder {
+  color: black;
+}
 
 .comfortaa-uniquifier {
   font-family: "Comfortaa", sans-serif;
@@ -113,4 +129,3 @@ color: black;
   font-weight: 400;
   font-style: normal;
 }
-
